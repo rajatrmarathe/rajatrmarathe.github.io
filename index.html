@@ -1,124 +1,273 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rajat Ravindra Marathe - Resume</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            background-color: #f9f9f9;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        h1 {
-            text-align: center;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-    </style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rajat Ravindra Marathe Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
+
 <body>
-    <div class="container">
-        <h1>Rajat Ravindra Marathe</h1>
-        <p><strong>Email:</strong> rajatrmarathe@gmail.com | <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/rajat-r-marathe">https://www.linkedin.com/in/rajat-r-marathe</a> | <strong>Phone:</strong> +1 (240) 468-8823 | <strong>Location:</strong> College Park, MD</p>
-
-        <div class="section">
-            <h2>Education</h2>
-            <p><strong>University of Maryland, Robert H. Smith School of Business, College Park, MD</strong><br>
-            MS in Business Analytics (Aug 2023 – Dec 2024)</p>
-            <ul>
-                <li>GPA: 3.57/4.0 | Terrapin Scholar</li>
-                <li>Relevant Courses: Database Management Systems, Decision Analytics, Statistical Models, Cloud Computing, Big Data, Data Mining, Predictive Analytics, Data Visualization, Web Analytics, Operations Analytics, Price Optimization.</li>
-                <li>Part-time Grader for the course: Introduction to Data Visualization.</li>
-            </ul>
-            <p><strong>Savitribai Phule Pune University, MIT College of Engineering, Pune, India</strong><br>
-            Bachelor of Engineering in Information Technology (Aug 2016 – May 2020)</p>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
         </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
 
-        <div class="section">
-            <h2>Professional Experience</h2>
-            <p><strong>OneMain Financial, Wilmington, DE</strong><br>
-            Associate Analyst Intern (June 2024 – August 2024)</p>
-            <ul>
-                <li>Analyzed large datasets using SQL and Python to improve credit risk assessments for joint loan applications.</li>
-                <li>Delivered data-driven proposals to senior management, optimizing portfolio decisions and aligning underwriting strategies.</li>
-                <li>Evaluated delinquency and charge-off metrics, improving predictive risk models and enhancing reporting efficiency.</li>
-            </ul>
-
-            <p><strong>Accenture, Pune, India</strong><br>
-            Full Stack Engineering Analyst (January 2021 – May 2023)</p>
-            <ul>
-                <li>Developed, maintained, and debugged code for internal systems, enhancing workflows for 200+ users.</li>
-                <li>Optimized performance by resolving 100+ defects and enhancing 25+ features based on data analysis.</li>
-                <li>Collaborated cross-functionally to deliver tailored solutions, reducing onboarding time by 40% through detailed documentation.</li>
-                <li>Designed and implemented REST APIs, streamlining integrations for internal applications.</li>
-            </ul>
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Rajat Marathe</h1>
+            <h2>Data Analyst</h2>
+            <a href="https://www.linkedin.com/in/rajat-r-marathe/overlay/1736447821024/single-media-viewer/?profileId=ACoAABpBHIQBcimBLHftUW9eDi-5iVFfqNdR5Ek" class="btn-rounded-white">View and Download Resume</a>
         </div>
+        <!-- End #lead-content -->
 
-        <div class="section">
-            <h2>Project Experience</h2>
-            <p><strong>Total Wine & More Demand Forecasting Project</strong></p>
-            <ul>
-                <li>Built and validated forecast models for 52-week demand predictions of Sauvignon Blanc products across 200+ stores.</li>
-                <li>Conducted detailed analysis using Python and Tableau to predict normalized sales dollars and optimize product assortments.</li>
-                <li>Delivered actionable business recommendations based on predictive insights to improve inventory management.</li>
-            </ul>
+        <div id="lead-overlay"></div>
 
-            <p><strong>Maryland Softball Analysis</strong></p>
-            <ul>
-                <li>Created a comprehensive database (1999–2022) for in-depth statistical trend analysis of game data.</li>
-                <li>Presented findings through Tableau dashboards, enabling data-driven decisions by stakeholders.</li>
-            </ul>
-
-            <p><strong>Airbnb Guest Satisfaction Predictive Modeling</strong></p>
-            <ul>
-                <li>Conducted data preprocessing, text mining, and regression analysis using R to predict guest satisfaction.</li>
-                <li>Identified key drivers of 5-star reviews, offering actionable insights to improve customer experience.</li>
-            </ul>
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
         </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
 
-        <div class="section">
-            <h2>Courses and Certifications</h2>
-            <ul>
-                <li>Data Analyst Associate Certification – DataCamp.</li>
-                <li>Microsoft Certified: Azure Fundamentals - AZ900.</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Technical Skills</h2>
-            <ul>
-                <li><strong>Data Analysis:</strong> SQL, Python, R, Microsoft Excel (Pivot Tables, VLOOKUP, Dashboards), Snowflake</li>
-                <li><strong>Data Visualization:</strong> Tableau, Power BI</li>
-                <li><strong>Statistical Modeling:</strong> Predictive Analytics, Regression (LASSO, Ridge), Statistical Models</li>
-                <li><strong>Programming:</strong> Python, SQL, R, .NET</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Soft Skills</h2>
-            <ul>
-                <li><strong>Analytical Mindset:</strong> Translating complex datasets into actionable insights.</li>
-                <li><strong>Collaboration:</strong> Proven ability to work cross-functionally with technical and business stakeholders.</li>
-                <li><strong>Communication:</strong> Strong verbal and written skills for presenting technical concepts to non-technical audiences.</li>
-            </ul>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        I recently graduated with an MS in Business Analytics from the University of Maryland - Robert H. Smith School of Business, where I learnt advanced concepts and techniques in data science, machine learning, cloud computing and optimization. I am eager to apply my skills and knowledge to real-world scenarios and challenges, and to contribute to a quality-focused team that values innovation, collaboration, and continuous learning. My goal is to become a proficient and versatile Data Analyst who can deliver impactful results and value to any organization.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="June 2024 – August 2024">
+                <h3>OneMain Financial</h3>
+                <h4>Associate Analyst Intern</h4>
+                <p>
+                    <li>Analyzed large datasets using SQL and Python to improve credit risk assessments for joint loan applications.</li>
+                    <li>Delivered data-driven proposals to senior management, optimizing portfolio decisions and aligning underwriting strategies.</li>
+                    <li>Evaluated delinquency and charge-off metrics, improving predictive risk models and enhancing reporting efficiency.</li>
+            
+                </p>
+            </div>
+
+            <div data-date="January 2021 – May 2023">
+                <h3>Accenture</h3>
+                <h4>Full Stack Engineering Analyst</h4>
+                <p>
+                    <li>Developed, maintained, and debugged code for internal systems, enhancing workflows for 200+ users.</li>
+                    <li>Optimized performance by resolving 100+ defects and enhancing 25+ features based on data analysis.</li>
+                    <li>Collaborated cross-functionally to deliver tailored solutions, reducing onboarding time by 40% through detailed documentation.</li>
+                    <li>Designed and implemented REST APIs, streamlining integrations for internal applications.</li>     
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>University of Maryland, College Park</h3>
+            <span class="education-date">August 2023 - December 2024</span>
+            <h4>Master of Science in Business Analytics</h4>
+            <p>
+                <li>GPA: 3.57/4.0 | Terrapin Scholar</li>
+                <li>
+                    Relevant Courses: Database Management Systems, Decision Analytics, Statistical Models, Cloud Computing, 
+                    Big Data, Data Mining, Predictive Analytics, Data Visualization, Web Analytics, Operations Analytics, 
+                    Price Optimization.
+                </li>
+                <li>Part-time Grader for the course: Introduction to Data Visualization.</li> 
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>Savitribai Phule Pune University</h3>
+            <span class="education-date">August 2016 - May 2020</span>
+            <h4>Bachelor of Engineering in Information Technology</h4>
+            <ul>
+                
+                <b>Notable Projects :</b>
+                    <li>College Enquiry Chatbot - Worked with a team to create this chatbot as the final year project submission. Technologies Used: Natural Language Tool Kit (NLTK), Python Artificial Intelligence Mark-up Language (PyAIML), Pattern Matching algorithm, SQLite library, deployed using Flask.
+                        <br><br>Skills: SQL · Problem Solving · Python (Programming Language) · Databases · Software Development
+                    </li>
+                    <br>
+                    <li>
+                        Movie Ticket Booking Website - Created a movie ticket booking website in collaboration with three other teammates as a part of college group project in the 3rd year using Jsp Servlet and MySQL as the dbms. Contributed to the team by creating required tables, establish relationships among them and helped in designing the frontend.
+                        <br><br>Skills: SQL · Problem Solving · Web Development · Java · Databases · Software Development
+                    </li>
+                    
+                
+                
+            </ul>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="C:\Users\rajat\OneDrive\Documents\GitHub\rajatrmarathe.github.io\images\totalwine.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Total Wine & More Demand Forecasting Project</h3>
+                        <p>
+                            <li>Built and validated forecast models for 52-week demand predictions of Sauvignon Blanc products across 200+ stores.</li>
+                            <li>Conducted detailed analysis using Python and Tableau to predict normalized sales dollars and optimize product assortments.</li>
+                            <li>Delivered actionable business recommendations based on predictive insights to improve inventory management.</li>
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="C:\Users\rajat\OneDrive\Documents\GitHub\rajatrmarathe.github.io\images\softball.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Maryland Softball Analysis</h3>
+                        <p>
+                            <li>Created a comprehensive database (1999–2022) for in-depth statistical trend analysis of game data.</li>
+                            <li>Presented findings through Tableau dashboards, enabling data-driven decisions by stakeholders.</li>                        
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="C:\Users\rajat\OneDrive\Documents\GitHub\rajatrmarathe.github.io\images\airbnb.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Airbnb Guest Satisfaction Predictive Modeling</h3>
+                        <p>
+                            <li>Conducted data preprocessing, text mining, and regression analysis using R to predict guest satisfaction.</li>
+                            <li>Identified key drivers of 5-star reviews, offering actionable insights to improve customer experience.</li>                  
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+
+<ul>
+    <li>Data Analysis: SQL, Python, R, Microsoft Excel (Pivot Tables, VLOOKUP, Dashboards), Snowflake</li>
+    <li>Data Visualization: Tableau, Power BI</li>
+    <li>Statistical Modeling: Predictive Analytics, Regression (LASSO, Ridge), Statistical Models</li>
+    <li>Programming: Python, SQL, R, .NET</li>
+</ul>
+
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2025</span> Rajat Marathe
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/rajatrmarathe" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/rajat-r-marathe/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
 </body>
+
 </html>
